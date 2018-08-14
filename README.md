@@ -40,6 +40,11 @@ The UI is divided in four main panels.
 * The "<" button or "import" button allows the user to import a game
 * The ">" button or "export" button allows the user to export the selected game
 
+## Upcoming features
+* Touchbar support
+
+Please, feel free to suggest new features
+
 ## Sponsorship
 *The Game of Life* is open source software. Ongoing development is made possible by generous contributions.
 
