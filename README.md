@@ -3,8 +3,10 @@ This project is a simple JavaFX Game of Life simulator
 
 ![The Game of Life](https://github.com/lsonnino/gameOfLife/blob/master/icon/Game%20of%20Life%20-%20256x256.png "The Game of Life")
 
+Please, note that even if it should work on every OS, the program has only been tested on macOS High Sierra 10.13.6.
+
 ## Conway's Game of Life
-The Game of Life is a simulations of the "life" of cells which follows three simple rules
+The Game of Life is a simulations of the "life" of cells which follows three simple rules:
 
 * An alive cell surrounded by two or three alive cells survive
 * A dead cell surrounded by three alive cells comes back to lives
@@ -39,6 +41,18 @@ The UI is divided in four main panels.
 * The "-" button removes the selected game from the saved games
 * The "<" button or "import" button allows the user to import a game
 * The ">" button or "export" button allows the user to export the selected game
+
+## Stored files
+The Game of Life stores the preference and the saved games to a directory depending on the operating system
+
+### Windows
+The files are stored in ```AppData/Local/.Game of Life```
+
+### Linux
+The files are stored in ```.Game of Life```
+
+### macOS
+The files are stored in ```Library/Application Support/org.alfcorp.gameoflife```
 
 ## Upcoming features
 * Touchbar support
