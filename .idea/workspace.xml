@@ -5,85 +5,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/GameOfLife.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/GolParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Updater$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Updater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/BottomBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/Case.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/FilesPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/PropertyPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/FileSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/IO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/Screen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Beehive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Center.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Game16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Game32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Patterns.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Pentadecathlon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Pulsar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/TheKing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/geom/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/io/ImageIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/Image$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/ImageBlender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/ImageOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/io/Serializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/HorizontalComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/HorizontalSpacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/Layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/VerticalComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/VerticalSpacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/jnative/SuperArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Clonable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Converter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/SimpleAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/math/Matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/AdvancedEncryptionStandard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/EncryptedAESMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/Hash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/SecurityException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/fonts/Belwe-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/fonts/Belwe-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/fonts/Belwe-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/res/fonts/Belwe-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/res/fonts/Belwe-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/res/fonts/Belwe-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/back.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/bottomBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/checkBox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/field.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/files.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/label.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/over.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/properties.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/textfield.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/back.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/bottomBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/checkBox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/field.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/files.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/label.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/over.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/properties.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/textfield.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,7 +61,7 @@
     <session id="-1682739998">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -305,7 +227,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534256327536" />
     <property name="dynamic.classpath" value="false" />
     <property name="last.edited.regexp" value=" " />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -416,12 +338,12 @@
       <workItem from="1533922755984" duration="30000" />
       <workItem from="1533922805932" duration="9917000" />
       <workItem from="1534164918656" duration="22713000" />
-      <workItem from="1534256544875" duration="123000" />
+      <workItem from="1534256544875" duration="201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39563000" />
+    <option name="totallyTimeSpent" value="39641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -435,7 +357,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -862,6 +784,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

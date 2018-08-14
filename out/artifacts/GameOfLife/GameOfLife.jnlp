@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GameOfLife.jnlp">
+    <information>
+        <title>Game of Life</title>
+        <vendor>ALF Corp</vendor>
+        <description>A Java Game of Life</description>
+        <offline-allowed/>
+    </information>
+    <update check="background"/>
+    <resources>
+        <j2se version="10.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="GameOfLife.jar" size="259328" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="1280" height="720" main-class="gol.Main" name="GameOfLife"/>
+</jnlp>
+

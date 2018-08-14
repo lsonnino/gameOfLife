@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <SCRIPT src="https://java.com/js/dtjava.js"></SCRIPT><script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'GameOfLife.jnlp'
+            },
+            {
+                javafx : '10.0.1+'
+            },
+            {}
+        );
+        return false;
+    }
+</script><script>
+    function javafxEmbedGameOfLife_id() {
+        dtjava.embed(
+            {
+                id : 'GameOfLife_id',
+                url : 'GameOfLife.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '1280',
+                height : '720'
+            },
+            {
+                javafx : '10.0.1+'
+            },
+            {}
+        );
+    }
+    
+            <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedGameOfLife_id);
+</script>
+    </head>
+    <body>
+        <h2>
+            Test page for <b>GameOfLife</b>
+        </h2>
+        <b>Webstart:</b><a href="GameOfLife.jnlp" onclick="return launchApplication('GameOfLife.jnlp');">click to launch this app as webstart</a>
+        <br>
+        <hr>
+        <br>
+        
+        <!-- Applet will be inserted here -->
+        <div id="javafx-app-placeholder"></div>
+    </body>
+</html>
