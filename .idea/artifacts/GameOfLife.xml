@@ -4,22 +4,18 @@
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="gol.Main" />
-        <option name="description" value="A Java Game of Life" />
+        <option name="description" value="" />
         <option name="height" value="720" />
         <option name="htmlPlaceholderId" value="" />
-        <option name="nativeBundle" value="all" />
         <option name="title" value="Game of Life" />
-        <option name="vendor" value="ALF Corp" />
-        <option name="version" value="1.0" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0.0" />
         <option name="width" value="1280" />
       </options>
     </properties>
     <root id="root">
       <element id="archive" name="GameOfLife.jar">
         <element id="module-output" name="GameOfLife" />
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-        </element>
       </element>
     </root>
   </artifact>

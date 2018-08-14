@@ -1,19 +1,20 @@
-<html>
-    <head>
-        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <SCRIPT src="https://java.com/js/dtjava.js"></SCRIPT><script>
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
     function launchApplication(jnlpfile) {
         dtjava.launch(            {
                 url : 'GameOfLife.jnlp'
             },
             {
-                javafx : '10.0.1+'
+                javafx : '8.0+'
             },
             {}
         );
         return false;
     }
-</script><script>
+</script>
+
+<script>
     function javafxEmbedGameOfLife_id() {
         dtjava.embed(
             {
@@ -24,26 +25,19 @@
                 height : '720'
             },
             {
-                javafx : '10.0.1+'
+                javafx : '8.0+'
             },
             {}
         );
     }
-    
-            <!-- Embed FX application into web page once page is loaded -->
+    <!-- Embed FX application into web page once page is loaded -->
     dtjava.addOnloadCallback(javafxEmbedGameOfLife_id);
 </script>
-    </head>
-    <body>
-        <h2>
-            Test page for <b>GameOfLife</b>
-        </h2>
-        <b>Webstart:</b><a href="GameOfLife.jnlp" onclick="return launchApplication('GameOfLife.jnlp');">click to launch this app as webstart</a>
-        <br>
-        <hr>
-        <br>
-        
-        <!-- Applet will be inserted here -->
-        <div id="javafx-app-placeholder"></div>
-    </body>
-</html>
+
+</head><body>
+<h2>Test page for <b>GameOfLife</b></h2>
+  <b>Webstart:</b> <a href='GameOfLife.jnlp' onclick="return launchApplication('GameOfLife.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
