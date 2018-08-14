@@ -1,0 +1,4 @@
+.slider:focused {
+	-fx-faint-focus-color: transparent;
+    -fx-focus-color:rgba(100, 149, 237, 0.2); /* CORNFLOWER BLUE */
+}
