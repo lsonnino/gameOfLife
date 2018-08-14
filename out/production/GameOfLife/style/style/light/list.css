@@ -1,0 +1,18 @@
+.list-view {
+	-fx-background-insets: 0;
+	-fx-padding: 0;
+	-fx-border-color: #cfcfcf;
+}
+.list-cell {
+    -fx-text-fill: #778899;
+}
+.list-cell:odd {
+	-fx-background-color: #E6E6E6;
+}
+.list-cell:even {
+	-fx-background-color: #E6E6E6; /* Smoke white */
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected, .list-cell:filled:hover, .list-cell:filled:hover:focused {
+    -fx-background-color: #6495ED;
+    -fx-text-fill: white;
+}
