@@ -1,6 +1,8 @@
 # Game of Life
 This project is a simple JavaFX Game of Life simulator
 
+![The Game of Life](https://github.com/lsonnino/gameOfLife/blob/master/icon/Game%20of%20Life%20-%20256x256.png "The Game of Life")
+
 ## Conway's Game of Life
 The Game of Life is a simulations of the "life" of cells which follows three simple rules
 
