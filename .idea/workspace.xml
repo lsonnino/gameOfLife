@@ -1,7 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfLife.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/GolParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Updater$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Updater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/BottomBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/FilesPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/PropertyPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/FileSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/IO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/Screen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Beehive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Center.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Game16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Game32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Patterns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Pentadecathlon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/Pulsar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/patterns/TheKing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/geom/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/io/ImageIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/Image$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/ImageBlender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/image/lang/ImageOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/io/Serializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/HorizontalComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/HorizontalSpacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/Layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/VerticalComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/javafx/VerticalSpacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/jnative/SuperArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Clonable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/lang/SimpleAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/math/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/AdvancedEncryptionStandard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/EncryptedAESMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/Hash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/library/security/SecurityException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/fonts/Belwe-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/fonts/Belwe-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/fonts/Belwe-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/res/fonts/Belwe-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/res/fonts/Belwe-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/res/res/fonts/Belwe-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/back.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/bottomBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/checkBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/field.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/files.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/over.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/properties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/dark/textfield.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/back.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/bottomBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/checkBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/field.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/files.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/over.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/properties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/style/light/textfield.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/GolParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/Updater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/BottomBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/FilesPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/PropertyPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/io/FileSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/io/IO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/io/Screen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/Beehive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/Center.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/Game16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/Game32.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/Patterns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/Pentadecathlon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/Pulsar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/patterns/TheKing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/geom/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/image/io/ImageIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/image/lang/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/image/lang/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/image/lang/ImageBlender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/image/lang/ImageOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/io/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/javafx/HorizontalComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/javafx/HorizontalSpacer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/javafx/Layout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/javafx/VerticalComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/javafx/VerticalSpacer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/jnative/SuperArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/lang/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/lang/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/lang/Clonable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/lang/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/lang/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/lang/SimpleAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/math/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/security/AdvancedEncryptionStandard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/security/EncryptedAESMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/security/Hash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/security/SecurityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/res/fonts/Belwe-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/res/fonts/Belwe-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/res/fonts/Belwe-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/back.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/bottomBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/checkBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/field.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/files.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/over.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/properties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/dark/textfield.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/back.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/bottomBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/checkBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/field.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/files.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/over.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/properties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style/light/textfield.css" beforeDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,7 +220,7 @@
     <session id="-1682739998">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -108,6 +272,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,6 +329,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -214,7 +382,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534256133592" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534256327536" />
     <property name="dynamic.classpath" value="false" />
     <property name="last.edited.regexp" value=" " />
     <property name="project.structure.last.edited" value="Modules" />
@@ -327,12 +495,12 @@
       <workItem from="1533894766417" duration="38000" />
       <workItem from="1533922755984" duration="30000" />
       <workItem from="1533922805932" duration="9917000" />
-      <workItem from="1534164918656" duration="22557000" />
+      <workItem from="1534164918656" duration="22713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39284000" />
+    <option name="totallyTimeSpent" value="39440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -346,13 +514,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
