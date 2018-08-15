@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GameOfLife:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GameOfLife_jar</output-path>
+    <root id="archive" name="GameOfLife.jar">
+      <element id="module-output" name="GameOfLife" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/thizzer/jtouchbar/jtouchbar/0.1.0/jtouchbar-0.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/swt/org.eclipse.swt.cocoa.macosx.x86_64/4.6.1/org.eclipse.swt.cocoa.macosx.x86_64-4.6.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

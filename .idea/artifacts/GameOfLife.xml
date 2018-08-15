@@ -16,6 +16,7 @@
     <root id="root">
       <element id="archive" name="GameOfLife.jar">
         <element id="module-output" name="GameOfLife" />
+        <element id="library" level="project" name="com.thizzer.jtouchbar:jtouchbar:0.2.0-SNAPSHOT" />
       </element>
     </root>
   </artifact>

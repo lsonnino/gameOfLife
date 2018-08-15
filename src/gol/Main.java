@@ -43,7 +43,7 @@ public class Main extends Application {
         // [MAC ONLY] TouchBar
         if(FileSystem.getOS() == FileSystem.MACOS){
             touchBar = new TouchBar();
-            touchBar.show(stage);
+            //touchBar.show(stage);
         }
     }
 
