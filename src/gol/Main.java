@@ -1,6 +1,8 @@
 package gol;
 
 import gol.gui.GUI;
+import gol.gui.TouchBar;
+import gol.io.FileSystem;
 import gol.io.Screen;
 import javafx.application.Application;
 import javafx.scene.Parent;
@@ -14,6 +16,7 @@ public class Main extends Application {
     private static Screen screen;
     private static GUI gui;
     private static StackPane stackPane;
+    private static TouchBar touchBar;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -36,6 +39,12 @@ public class Main extends Application {
         primaryStage.setFullScreenExitHint("");
         primaryStage.show();
         primaryStage.setOnCloseRequest(event -> gui.kill());
+
+        // [MAC ONLY] TouchBar
+        if(FileSystem.getOS() == FileSystem.MACOS){
+            touchBar = new TouchBar();
+            touchBar.show(stage);
+        }
     }
 
     public static Stage getStage() {
@@ -46,6 +55,12 @@ public class Main extends Application {
     }
     public static GUI getGui() {
         return gui;
+    }
+
+    public static void refreshTouchBar(){
+        if(touchBar != null){
+            touchBar.refreshStatus();
+        }
     }
 
     public static void addStylizedObject(Parent node, String style){

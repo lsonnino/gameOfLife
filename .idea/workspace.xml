@@ -7,14 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GameOfLife.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GameOfLife.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GameOfLife_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_thizzer_jtouchbar_jtouchbar_0_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gol/gui/TouchBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GameOfLife.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GameOfLife.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GameOfLife/GameOfLife.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GameOfLife/GameOfLife.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GameOfLife/GameOfLife.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GameOfLife/GameOfLife.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameOfLife/gol/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/BottomBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/BottomBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameOfLife/gol/gui/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/FileSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameOfLife/gol/io/FileSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gol/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/BottomBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gol/gui/BottomBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gol/gui/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol/io/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gol/io/FileSystem.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,37 +75,39 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="9" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="css" value="3" />
-          <entry key="java" value="102" />
+          <entry key="java" value="110" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="CSS" value="3" />
-          <entry key="JAVA" value="102" />
+          <entry key="JAVA" value="110" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14874" />
+          <entry key="java" value="15820" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14874" />
+          <entry key="JAVA" value="15820" />
         </counts>
       </usages-collector>
     </session>
@@ -110,7 +116,53 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gol/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="45" column="20" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gol/gui/TouchBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gol/gui/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+              <folding>
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1685#1686#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gol/gui/BottomBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="71" column="31" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,11 +202,9 @@
         <option value="$PROJECT_DIR$/src/gol/FileSystem.java" />
         <option value="$PROJECT_DIR$/src/gol/GUI.java" />
         <option value="$PROJECT_DIR$/src/gol/Field.java" />
-        <option value="$PROJECT_DIR$/src/gol/io/FileSystem.java" />
         <option value="$PROJECT_DIR$/src/gol/Game.java" />
         <option value="$PROJECT_DIR$/src/gol/patterns/Game16.java" />
         <option value="$PROJECT_DIR$/src/gol/patterns/Game32.java" />
-        <option value="$PROJECT_DIR$/src/gol/Main.java" />
         <option value="$PROJECT_DIR$/src/gol/gui/Field.java" />
         <option value="$PROJECT_DIR$/src/gol/gui/PropertyPanel.java" />
         <option value="$PROJECT_DIR$/src/gol/patterns/Pulsar.java" />
@@ -164,9 +214,12 @@
         <option value="$PROJECT_DIR$/src/gol/patterns/Pentadecathlon.java" />
         <option value="$PROJECT_DIR$/src/gol/patterns/Beehive.java" />
         <option value="$PROJECT_DIR$/src/gol/patterns/Patterns.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/src/gol/io/FileSystem.java" />
         <option value="$PROJECT_DIR$/src/gol/gui/BottomBar.java" />
         <option value="$PROJECT_DIR$/src/gol/gui/GUI.java" />
-        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/src/gol/Main.java" />
+        <option value="$PROJECT_DIR$/src/gol/gui/TouchBar.java" />
       </list>
     </option>
   </component>
@@ -190,8 +243,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +270,10 @@
               <item name="gol" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GameOfLife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,6 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
@@ -236,12 +294,14 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534256327536" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534339519673" />
     <property name="dynamic.classpath" value="false" />
     <property name="last.edited.regexp" value=" " />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -355,16 +415,18 @@
       <workItem from="1534256544875" duration="201000" />
       <workItem from="1534256833819" duration="276000" />
       <workItem from="1534261137175" duration="1551000" />
+      <workItem from="1534337483736" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41468000" />
+    <option name="totallyTimeSpent" value="43469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.35550788" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.36051503" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -373,7 +435,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gol/Updater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gol/io/IO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -594,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gol/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/library/lang/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -636,21 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gol/gui/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gol/patterns/Game32.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="9" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,31 +751,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/gol/io/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="106" selection-start-line="43" selection-start-column="106" selection-end-line="43" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gol/gui/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gol/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gol/gui/BottomBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="30" />
+        <state relative-caret-position="603">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thizzer/jtouchbar/jtouchbar/0.1.0/jtouchbar-0.1.0.jar!/com/thizzer/jtouchbar/item/TouchBarItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gol/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="337">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gol/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="37" column="60" lean-forward="true" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        <state relative-caret-position="408">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thizzer/jtouchbar/jtouchbar/0.1.0/jtouchbar-0.1.0.jar!/com/thizzer/jtouchbar/item/view/TouchBarScrubber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gol/gui/TouchBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -809,6 +895,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>com.thizzer.jtouchbar:jtouchbar:0.1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

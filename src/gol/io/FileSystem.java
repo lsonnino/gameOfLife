@@ -5,6 +5,10 @@ import gol.Constants;
 import java.io.File;
 
 public class FileSystem {
+    public static final short WINDOWS = 0;
+    public static final short LINUX = 1;
+    public static final short MACOS = 2;
+
     public static final String SEPARATOR = System.getProperty("file.separator");
 
     public static final String RESOURCES = "res";
@@ -18,19 +22,41 @@ public class FileSystem {
     public static final String SAVED_GAMES = getApplicationFolder().getPath() + SEPARATOR + "games";
 
     public static File getApplicationFolder(){
-        String os = System.getProperty("os.name").toLowerCase();
         String home = System.getProperty("user.home");
 
         String projectName = Constants.PROJECT_NAME.replaceAll("\\s", "").toLowerCase();
 
+        switch (getOS()){
+            case WINDOWS:
+                return new File(
+                        home + SEPARATOR + "AppData" + SEPARATOR + "Local" + SEPARATOR + "." + projectName
+                );
+            case MACOS:
+                return new File(
+                        home + SEPARATOR + "Library" + SEPARATOR + "Application Support" + SEPARATOR + "org.alfcorp." + projectName
+                );
+            case LINUX:
+                return new File(
+                        home + SEPARATOR + "." + projectName
+                );
+            default:
+                return new File(
+                        home + SEPARATOR + "AppData" + SEPARATOR + "Local" + SEPARATOR + "." + projectName
+                );
+        }
+    }
+
+    public static short getOS(){
+        String os = System.getProperty("os.name").toLowerCase();
+
         if(os.contains("win")){ // Windows
-            return new File(home + SEPARATOR + "AppData" + SEPARATOR + "Local" + SEPARATOR + "." + Constants.PROJECT_NAME);
+            return WINDOWS;
         }
         else if(os.contains("mac")){ // macOS
-            return new File(home + SEPARATOR + "Library" + SEPARATOR + "Application Support" + SEPARATOR + "org.alfcorp." + projectName);
+            return MACOS;
         }
         else { // Linux
-            return new File(home + SEPARATOR + "." + projectName);
+            return LINUX;
         }
     }
 }

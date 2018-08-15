@@ -51,18 +51,26 @@ public class GUI extends BorderPane {
         return updater.isStarted();
     }
     public void start(){
+        bottomBar.setButtonPress(true);
         field.setRunning(true);
+        Main.refreshTouchBar();
         updater.start();
     }
     public void stop(){
         bottomBar.setButtonPress(false);
         field.setRunning(false);
+        Main.refreshTouchBar();
         updater.cancel();
     }
     public void kill(){
         bottomBar.setButtonPress(false);
         field.setRunning(false);
+        Main.refreshTouchBar();
         updater.quit();
+    }
+
+    public Field getField() {
+        return field;
     }
 
     public void setDarkmode(boolean darkmode) {
@@ -70,6 +78,9 @@ public class GUI extends BorderPane {
             Main.getParam().setDarkmode(darkmode);
             loadTheme();
         }
+
+        bottomBar.refreshDarkmode();
+        Main.refreshTouchBar();
     }
 
     public void addStylizedObject(Parent node, String style){

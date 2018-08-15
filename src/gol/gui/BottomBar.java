@@ -10,6 +10,8 @@ import library.javafx.Layout;
 
 public class BottomBar extends HBox {
     private ToggleButton startButton;
+    private CheckBox darkmodeCheckBox;
+
     public BottomBar(){
         super();
 
@@ -29,7 +31,7 @@ public class BottomBar extends HBox {
         Label iterationsLabel = new Label("0");
         iterationsLabel.textProperty().bind(Main.getGui().getUpdater().iterationsProperty().asString());
 
-        CheckBox darkmodeCheckBox = new CheckBox("Darkmode");
+        darkmodeCheckBox = new CheckBox("Darkmode");
         darkmodeCheckBox.setId("check-box");
         darkmodeCheckBox.setSelected(Main.getParam().isDarkmode());
         darkmodeCheckBox.setOnAction(event -> Main.getGui().setDarkmode(darkmodeCheckBox.isSelected()));
@@ -65,5 +67,11 @@ public class BottomBar extends HBox {
             startButton.setText("Stop");
         }
         startButton.setSelected(pressed);
+    }
+
+    public void refreshDarkmode(){
+        if(Main.getParam().isDarkmode() != darkmodeCheckBox.isSelected()){
+            darkmodeCheckBox.setSelected(Main.getParam().isDarkmode());
+        }
     }
 }
