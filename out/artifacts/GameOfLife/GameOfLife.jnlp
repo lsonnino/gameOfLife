@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="GameOfLife.jar" size="258551" download="eager" />
+    <jar href="GameOfLife.jar" size="260474" download="eager" />
   </resources>
   <jfx:javafx-desc  width="1280" height="720" main-class="gol.Main"  name="GameOfLife" />
   <update check="background"/>
